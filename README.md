@@ -39,6 +39,7 @@ We implemented parent and child programs in C that showcase:
     - Child prints its own PID and parent’s PID.
     - Parent waits for child and prints child’s exit code.
 - Sample Output:
+  
 <img src="screenshots/taskA_output.png" width="571" height="119" alt="taskA_output" />
 
 ## Task B - Creating Two Children
@@ -48,6 +49,7 @@ We implemented parent and child programs in C that showcase:
     - Both children print their PIDs.
     - Parent waits until both children finish.
 - Sample Output:
+  
 <img src="screenshots/taskB_output.png" width="571" height="119" alt="taskB_output" />
 
 ## Task C – Simulating exec()
@@ -56,6 +58,7 @@ We implemented parent and child programs in C that showcase:
     - Parent launches a replacement process (e.g., cmd /c dir).
     - Parent exits quickly with the same exit code as the spawned program.
 - Sample Output:
+  
 <img src="screenshots/taskC_output.png" width="571" height="119" alt="taskC_output" />
 
 ## Task D – Managing Processes in PowerShell
@@ -68,18 +71,23 @@ We implemented parent and child programs in C that showcase:
 Sample PowerShell Session:
 
 Starting create_basic.exe:
+
 <img src="screenshots/taskD_starting_create_basic_exe.png" width="571" height="119" alt="taskD_starting_create_basic_exe" />
 
 In another PowerShell window (Executing Get-Process child_echo):
+
 <img src="screenshots/taskD_get_process.png" width="571" height="119" alt="taskD_get_process" />
 
 Then forced terminate:
+
 <img src="screenshots/taskD_termination_initiate.png" width="571" height="119" alt="taskD_termination_initiate" />
 
 Result after forced terminating:
+
 <img src="screenshots/taskD_after_termination.png" width="571" height="119" alt="taskD_after_termination" />
 
 Output when create_basic.exe ends naturally:
+
 <img src="screenshots/taskD_normally_terminated.png" width="571" height="119" alt="taskD_normally_terminated" />
 
 ## Difference Observed:
