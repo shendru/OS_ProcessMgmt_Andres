@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 This lab demonstrates process creation and management in Windows using the WinAPI.  
 We implemented parent and child programs in C that showcase:  
 - Creating processes (`CreateProcess`)  
@@ -15,7 +15,7 @@ We implemented parent and child programs in C that showcase:
 
 ---
 
-## ⚙️ Build Instructions  
+## Build Instructions  
 
 ### Using VS Code with MinGW
 1. Install **MinGW-w64** and add it to your PATH.  
